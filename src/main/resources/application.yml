@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+logging:
+  level:
+    root: info
+    com.liudong.blog: debug
